@@ -18,7 +18,7 @@ nav{
     color: white;
     font-size: large;
     font-weight: 1000;
-
+    
     inset-inline: 10px;
     padding: 10px;
     padding-left: 50%;
@@ -129,9 +129,20 @@ h2 {
 
   }
 
-  .personalizadas img{
-    width: 700px;
-    height: 750px;
+.img-box{
+    height: 600px;
+
+    justify-content: center;
+    align-items: baseline;
+}
+
+.pers-image{
+    padding-left: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: baseline;
   }
   
   .personalizadas li{
