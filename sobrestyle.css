@@ -12,8 +12,7 @@ header{
     background-image: url(Site_Imagens/Capa\ Google\ Sites.png);
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
- 
+    position: relative; 
 }
 
 nav{
@@ -56,7 +55,7 @@ h1 {
     font-size: 150px;  
     -webkit-text-size-adjust: 100%;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 150px;
 }
 
 
