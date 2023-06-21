@@ -70,6 +70,51 @@ h2 {
     padding-top: 80px;
 }
 
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-align: justify;
+    color: black;
+    padding: 15px;
+}
+
+.container{
+    max-height: 600px;
+    padding: 60px;
+    display: flex;
+}
+
+.container img{
+    max-height: 500px;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 20px;
+}
+
+#orange{
+    align-items: center;
+    background-color: rgba(225, 121, 10, 1);
+    padding: 30px;
+}
+
+#orange h2{
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#fundadora{
+    align-items: center;
+    text-align: center;
+    padding: 60px;
+}
+
 .rodape{
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;

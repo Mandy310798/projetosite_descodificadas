@@ -12,8 +12,7 @@ header{
     background-image: url(Site_Imagens/Capa\ Google\ Sites.png);
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
- 
+    position: relative; 
 }
 
 nav{
@@ -68,7 +67,63 @@ h2 {
     -webkit-text-size-adjust: 100%;
     font-weight: lighter;
     padding: 50px;
-    padding-top: 80px;
+    padding-top: 60px;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-align: justify;
+    color: black;
+    padding: 15px;
+}
+
+.container{
+    max-height: 600px;
+    justify-content: center;
+    padding: 60px;
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.logoinsta img{
+    display: flex;
+    justify-items: end;
+    width: 50px;
+    height: 50px;
+}
+
+.mapa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mapa iframe {
+    width: 400px;
+    height: 400px;
+}
+
+.mapa p {
+    font-size: 15px;
+}
+
+.caminho {
+    padding: 30px;
+}
+
+.caminho p {
+    font-size: 23px;
+}
+
+.caminho h3 {
+    color: black;
+    align-items: center;
+    text-align:left;
+    font-family: sans-serif;
+    font-size: 30px;  
+    -webkit-text-size-adjust: 100%;
+    font-weight: bold;
+    padding: 20px;
 }
 
 .rodape{
