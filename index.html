@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body onload="slide1()">
     
         <!-- <h1>Menu</h1> -->
     <header>
@@ -40,47 +40,16 @@
         
 
         <div class="slider">
-            <img src="Site_Imagens/Motivacional.png" alt="capa">
-        </div>    
-                <!-- <ul class="slider"> Fazer depois com JavaScript
-                    <li> -->
-                        <!-- <img src="Site_Imagens/Motivacional.png" class="slider"> -->
-                    <!-- </li> -->
-                    <!-- <li>
-                        <img src="Site_Imagens/Capa personalizadas.png">
-                    </li>
-                    <li>
-                        <img src="Site_Imagens/Capa religião.png">
-                    </li>
-                    <li>
-                        <img src="Site_Imagens/CapaAmizade.png">
-                    </li>
-                    <li>
-                        <img src="Site_Imagens/CapaAmor.png">
-                    </li>
-                    <li>
-                        <img src="Site_Imagens/CapaBichinhos.png">
-                    </li>
-                    <li>
-                        <img src="Site_Imagens/CapaFocinhos.png">
-                    </li>
-                    <li>
-                        <img src="Site_Imagens/Capa F1.png">
-                    </li>
-                    <li>
-                        <img src="Site_Imagens/CapaDivertidas.png">
-                    </li>
-                    <li>
-                        <img src="Site_Imagens/Personalizadas.png">
-                    </li> -->
-                <!-- </ul> -->
+            <img class="slider" id="slider-image" alt="capa">
+        </div> 
             
         <div class="link">
             <a href="canecas.html">Veja os modelos disponíveis</a>    
         </div>    
             
+        <div class="lancamento">
             <h2>Em breve mais lançamentos...</h2>
-            <h2>Canecas Personalizadas</h2>
+            <h2 class="lancamento-subtitle">Canecas Personalizadas</h2>
 
             <ul class="personalizadas">
                 <li class="img-box">
@@ -94,9 +63,9 @@
                 <li class="img-box">
                     <h3>Montagem com fotos</h3>
                     <img src="Site_imagens/Pers_Daiane.png" class="pers-image">
-                </li>
-                               
+                </li> 
             </ul>
+        </div>
 
         <div class="link">
             <a href="personalizadas.html">Veja como pedir sua caneca personalizada</a>
@@ -106,13 +75,15 @@
             <h3>Loja física</h3>
         </div>
         
-        <div class="endereco">
-            <p class="endereco-titulo">Aurinko Canecas</p>
-            <p>Rua Caboclos, 232 - Vl. Urupês - Suzano - SP</p>
-        </div>
-        
-        <div class="local">
-            <p>Estamos localizados em Suzano.<br> Venha visitar nossa loja!</p>
+        <div class="loja-header">
+            <div class="endereco">
+                <p class="endereco-titulo">Aurinko Canecas</p>
+                <p>Rua Caboclos, 232 - Vl. Urupês - Suzano - SP</p>
+            </div>
+            
+            <div class="local">
+                <p>Estamos localizados em Suzano.<br> Venha visitar nossa loja!</p>
+            </div>
         </div>
 
         <div class="mapa">
@@ -131,6 +102,8 @@
             © Copyright Aurinko Canecas - 2023. Todos os direitos reservados.<br> Criado por Amanda Ferreira Gonçalves
         </footer>
     </div>
-            
+
+    <script type="text/javascript" src="script.js">
+    </script>
 </body>
 </html>
