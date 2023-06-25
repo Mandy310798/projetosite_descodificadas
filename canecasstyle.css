@@ -100,123 +100,212 @@ h2 {
 
 .container-religiosas{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 40px;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: stretch;
 }
-.container-religiosas img{
+
+
+.caneca-img {
     height: 500px;
     width: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid red;
 }
 
 .container-motivacionais{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 40px;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: stretch;
-}
-
-.container-motivacionais img{
-    height: 500px;
-    width: 500px;
 }
 
 .container-bichinhos{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 40px;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: stretch;
-}
-
-.container-bichinhos img{
-    height: 500px;
-    width: 500px;
 }
 
 .container-focinhos{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 40px;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: stretch;
-}
-
-.container-focinhos img{
-    height: 500px;
-    width: 500px;
 }
 
 .container-amizade{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 40px;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: stretch;
-}
-
-.container-amizade img{
-    height: 500px;
-    width: 500px;
 }
 
 .container-amor{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 40px;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: stretch;
-}
-
-.container-amor img{
-    height: 500px;
-    width: 500px;
 }
 
 .container-divertidas{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 40px;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: stretch;
-}
-
-.container-divertidas img{
-    height: 500px;
-    width: 500px;
 }
 
 .container-professores{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 40px;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: stretch;
-}
-
-.container-professores img{
-    height: 500px;
-    width: 500px;
 }
 
 .container-f1{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 40px;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: stretch;
 }
 
-.container-f1 img{
-    height: 500px;
-    width: 500px;
+.religiosas-img-1 {
+    background-image: url(Site_Imagens/AmorJesus_Azul.png);
+}
+
+.religiosas-img-2 {
+    background-image: url(Site_Imagens/AmorJesus_Amarela.png);
+}
+
+.religiosas-img-3 {
+    background-image: url(Site_Imagens/Caneca_nossa_senhora-removebg.png);
+}
+
+.motivacionais-img-1{
+    background-image: url(Site_Imagens/SerGirassol.png);
+}
+
+.motivacionais-img-2{
+    background-image: url(Site_Imagens/CheiroDeCafe1.png);
+}
+
+.motivacionais-img-3{
+    background-image: url(Site_Imagens/ComoGirassol.png);
+}
+
+.bichinhos-img-1{
+    background-image: url(Site_Imagens/Lhama.png);
+}
+
+.bichinhos-img-2{
+    background-image: url(Site_Imagens/MaeDePet.png);
+}
+
+.bichinhos-img-3{
+    background-image: url(Site_Imagens/PugRosa.png);
+    background-size: auto;
+}
+
+.focinhos-img-1{
+    background-image: url(Site_Imagens/FocinhoGatoLaranja.png);
+}
+
+.focinhos-img-2{
+    background-image: url(Site_Imagens/FocinhoPreto.png);
+    background-size: auto;
+}
+
+.focinhos-img-3{
+    background-image: url(Site_Imagens/FocinhoPorco.png);
+}
+
+.amizade-img-1{
+    background-image: url(Site_Imagens/AmigosAmarela.png);
+    background-size: auto;
+}
+
+.amizade-img-2{
+    background-image: url(Site_Imagens/BestFriends1.png);
+}
+
+.amizade-img-3{
+    background-image: url(Site_Imagens/MelhorAmigoDoMundo.png);
+}
+
+.amor-img-1{
+    background-image: url(Site_Imagens/TeAmoTanto.png);
+}
+
+.amor-img-2{
+    background-image: url(Site_Imagens/TaoApaixonados.png);
+}
+
+.amor-img-3{
+    background-image: url(Site_Imagens/SemPontoFinal.png);
+    background-size: auto;
+    background-position: top;
+}
+
+.divertidas-img-1{
+    background-image: url(Site_Imagens/SweetDreams.png);
+}
+
+.divertidas-img-2{
+    background-image: url(Site_Imagens/Fofoca.png);
+}
+
+.divertidas-img-3{
+    background-image: url(Site_Imagens/Comesemcafé.png);
+}
+
+.professores-img-1{
+    background-image: url(Site_Imagens/TornouProfessor.png);
+}
+
+.professores-img-2{
+    background-image: url(Site_Imagens/ProfessoraN10.png);
+}
+
+.professores-img-3{
+    background-image: url(Site_Imagens/MelhorProfessor.png);
+}
+
+.f1-img-1{
+    background-image: url(Site_Imagens/Verstappen_Laranja.png);
+}
+
+.f1-img-2{
+    background-image: url(Site_Imagens/LewisRoxa.png);
+}
+
+.f1-img-3{
+    background-image: url(Site_Imagens/Lewis_Preta.png);
 }
 
 .rodape {
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
+    margin-top: 160px;
 
     text-align: center;
 

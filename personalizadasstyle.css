@@ -79,7 +79,6 @@ p {
     text-align: justify;
     color: black;
     padding: 15px;
-
 }
 
 .container{
@@ -136,4 +135,21 @@ form input {
     background-color: rgba(225, 121, 10, 1);
     
     height: 100px;
+  }
+
+  #file {
+    display: none;
+  }
+
+  .file-title {
+    margin-bottom: 16px;
+  }
+
+  label {
+    background: rgba(225, 121, 10, 1);
+    font-weight: bold;
+    padding: 15px 20px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
   }
