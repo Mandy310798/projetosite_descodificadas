@@ -35,7 +35,7 @@ function slide7(){
 
 function slide8(){
     document.getElementById('slider-image').src="Site_Imagens/Capa F1.png";
-    setTimeout("slide9())", 3000)
+    setTimeout("slide9()", 3000)
 }
 
 function slide9(){
