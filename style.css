@@ -33,6 +33,12 @@ nav{
     text-decoration: none;
     text-transform: none;
     color: white;
+
+    transition: all 0.2s;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid rgba(225, 121, 10, 1);
 }
 
 .head{
